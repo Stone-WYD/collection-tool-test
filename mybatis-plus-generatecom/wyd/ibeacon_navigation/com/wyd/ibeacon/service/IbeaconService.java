@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author wyd
- * @since 2025-02-24
+ * @since 2025-03-19
  */
 public interface IbeaconService extends IService<Ibeacon> {
 

@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author wyd
- * @since 2025-02-24
+ * @since 2025-03-19
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -27,12 +27,12 @@ public class Park implements Serializable {
     /**
      * 停车场名称
      */
-    private String name;
+    private String parkName;
 
     /**
      * 停车场描述信息
      */
-    private String desc;
+    private String detail;
 
     /**
      * 灯的数量

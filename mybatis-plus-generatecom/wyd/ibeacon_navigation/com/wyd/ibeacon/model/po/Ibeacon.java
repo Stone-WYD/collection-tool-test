@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author wyd
- * @since 2025-02-24
+ * @since 2025-03-19
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -45,9 +45,19 @@ public class Ibeacon implements Serializable {
     private String locationY;
 
     /**
-     * 当前信标周围一步可达信标，多个信标请以英文逗号隔开
+     * 当前信标周围一步可达信标，这里的值是本表id，多个信标请以英文逗号隔开
      */
     private String aroundIbeacon;
+
+    /**
+     * 描述信息，如果是出入口点可能会需要使用
+     */
+    private String detail;
+
+    /**
+     * 点类型，暂时没用到（可能是出口、入口、普通点灯）
+     */
+    private Integer type;
 
     /**
      * 扩展字段1

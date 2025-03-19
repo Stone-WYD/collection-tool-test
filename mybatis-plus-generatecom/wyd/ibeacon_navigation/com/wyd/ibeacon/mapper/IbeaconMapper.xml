@@ -10,6 +10,8 @@
         <result column="location_x" property="locationX" />
         <result column="location_y" property="locationY" />
         <result column="around_ibeacon" property="aroundIbeacon" />
+        <result column="detail" property="detail" />
+        <result column="type" property="type" />
         <result column="extend_field1" property="extendField1" />
         <result column="extend_field2" property="extendField2" />
         <result column="extend_field3" property="extendField3" />
@@ -20,7 +22,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, park_id, ibeacon_id, location_x, location_y, around_ibeacon, extend_field1, extend_field2, extend_field3, update_time, create_time, update_person
+        id, park_id, ibeacon_id, location_x, location_y, around_ibeacon, detail, type, extend_field1, extend_field2, extend_field3, update_time, create_time, update_person
     </sql>
 
 </mapper>

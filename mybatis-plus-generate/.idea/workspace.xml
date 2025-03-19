@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb38d2b-6e07-45c7-be55-47904b00f4fc" name="更改" comment="" />
+    <list default="true" id="4bb38d2b-6e07-45c7-be55-47904b00f4fc" name="更改" comment="加入 mybatis-plus-generate 项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/controller/IbeaconController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/controller/ParkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/IbeaconMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/IbeaconMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/ParkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/ParkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/model/po/Ibeacon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/model/po/Park.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/IbeaconService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/ParkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/impl/IbeaconServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/impl/ParkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wyd/ibeacon/IbeaconNavigationGenerateor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wyd/ibeacon/IbeaconNavigationGenerateor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,21 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.mybatis-plus-generate [clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/wyd/MyProject/xuecheng-plus/xuecheng-plus-generator",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "应用程序.Bootstrap.executor": "Run",
-    "应用程序.IbeaconNavigationGenerateor.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.mybatis-plus-generate [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/wyd/MyProject/collection-tool-test/mybatis-plus-generate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;应用程序.Bootstrap.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.IbeaconNavigationGenerateor.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="应用程序.IbeaconNavigationGenerateor">
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bootstrap" />
@@ -85,7 +110,25 @@
       <workItem from="1740380446530" duration="9000" />
       <workItem from="1740380462209" duration="10000" />
       <workItem from="1740380481316" duration="1482000" />
+      <workItem from="1742268640367" duration="697000" />
+      <workItem from="1742363136979" duration="5964000" />
     </task>
+    <task id="LOCAL-00001" summary="加入 mybatis-plus-generate 项目">
+      <option name="closed" value="true" />
+      <created>1742268716948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742268716948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入 mybatis-plus-generate 项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入 mybatis-plus-generate 项目" />
   </component>
 </project>

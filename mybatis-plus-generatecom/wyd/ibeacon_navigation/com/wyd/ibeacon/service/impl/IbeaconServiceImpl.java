@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author wyd
- * @since 2025-02-24
+ * @since 2025-03-19
  */
 @Service
 public class IbeaconServiceImpl extends ServiceImpl<IbeaconMapper, Ibeacon> implements IbeaconService {

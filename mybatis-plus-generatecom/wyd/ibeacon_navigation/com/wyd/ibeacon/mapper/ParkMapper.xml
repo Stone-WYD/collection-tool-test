@@ -5,8 +5,8 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.wyd.ibeacon.model.po.Park">
         <id column="id" property="id" />
-        <result column="name" property="name" />
-        <result column="desc" property="desc" />
+        <result column="park_name" property="parkName" />
+        <result column="detail" property="detail" />
         <result column="lamp_count" property="lampCount" />
         <result column="extend_field" property="extendField" />
         <result column="update_time" property="updateTime" />
@@ -14,7 +14,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, name, desc, lamp_count, extend_field, update_time
+        id, park_name, detail, lamp_count, extend_field, update_time
     </sql>
 
 </mapper>
