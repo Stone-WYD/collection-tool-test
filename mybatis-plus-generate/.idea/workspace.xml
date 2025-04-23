@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb38d2b-6e07-45c7-be55-47904b00f4fc" name="更改" comment="加入 mybatis-plus-generate 项目">
+    <list default="true" id="4bb38d2b-6e07-45c7-be55-47904b00f4fc" name="更改" comment="将生成工具的一些配置信息移动到最前面，便于配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/controller/IbeaconController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/controller/ParkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/IbeaconMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/IbeaconMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/ParkMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/mapper/ParkMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/model/po/Ibeacon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/model/po/Park.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/IbeaconService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/ParkService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/impl/IbeaconServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/wyd/ibeacon/com/wyd/ibeacon/service/impl/ParkServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wyd/ibeacon/IbeaconNavigationGenerateor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wyd/ibeacon/IbeaconNavigationGenerateor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +99,8 @@
       <workItem from="1740380481316" duration="1482000" />
       <workItem from="1742268640367" duration="697000" />
       <workItem from="1742363136979" duration="5964000" />
+      <workItem from="1742371455660" duration="287000" />
+      <workItem from="1742432203811" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="加入 mybatis-plus-generate 项目">
       <option name="closed" value="true" />
@@ -121,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742268716948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="将生成工具的一些配置信息移动到最前面，便于配置">
+      <option name="closed" value="true" />
+      <created>1742371506629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742371506629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入 mybatis-plus-generate 项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入 mybatis-plus-generate 项目" />
+    <MESSAGE value="将生成工具的一些配置信息移动到最前面，便于配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="将生成工具的一些配置信息移动到最前面，便于配置" />
   </component>
 </project>

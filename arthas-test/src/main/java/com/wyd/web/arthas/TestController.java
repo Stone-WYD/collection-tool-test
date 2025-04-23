@@ -1,5 +1,6 @@
 package com.wyd.web.arthas;
 
+import com.alibaba.excel.EasyExcel;
 import com.google.gson.Gson;
 import com.wyd.web.common.AjaxResult;
 import com.wyd.web.common.Query;
@@ -10,12 +11,18 @@ import com.wyd.web.model.zm.user.ETEMPLBASIC;
 import com.wyd.web.model.zm.user.ETEMPLPOST;
 import com.wyd.web.model.zm.user.UserInfoBody;
 import lombok.Data;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author Stone
@@ -118,6 +125,30 @@ public class TestController {
         private Long id;
         private String name;
     }
+
+    @ResponseBody
+    @RequestMapping("/printRecordPatrolMsgs")
+    public ResponseEntity<byte[]> printRecordPatrolMsgs() {
+        UserEntity userEntity = new UserEntity();
+        userEntity.setName("test");
+        userEntity.setId(1L);
+        List<UserEntity> list = new ArrayList<>();
+        list.add(userEntity);
+
+        try(ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
+            EasyExcel.write(outputStream, UserEntity.class)
+                    .sheet("Sheet1")
+                    .doWrite(list); // list 是你要导出的数据集合
+
+            return ResponseEntity.ok()
+                    .header("Content-Disposition", "attachment; filename=export.xlsx")
+                    .contentType(MediaType.APPLICATION_OCTET_STREAM)
+                    .body(outputStream.toByteArray());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     /*public static void main(String[] args) {
         Query<UserEntity> query = new Query<>();
